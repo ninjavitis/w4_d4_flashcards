@@ -1,0 +1,71 @@
+.body{
+  background-color: #2B2B2B;
+
+}
+
+.navbar{
+  background-color: royalblue;
+  height: 25px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.vbox{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.hbox{
+  display:flex;
+  flex-direction: row;
+}
+
+
+.card{
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px black;
+
+}
+
+#row1{
+  height: 55px;
+  padding: 20px;
+}
+
+#row2{
+  height: 350px;
+  background-color:red;
+}
+
+#row3{
+  height: 75px;
+}
+
+#cardAdvanceButton{
+  width:75px;
+  justify-content: center;
+  align-items: center;
+  background-color:green;
+}
+
+#cardRetreatButton{
+  width:75px;
+  justify-content: center;
+  align-items: center;
+  background-color:green;
+}
+
+#card_body{
+  width:510px;
+  padding: 20px;
+}
