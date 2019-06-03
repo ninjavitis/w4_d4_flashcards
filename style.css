@@ -37,6 +37,10 @@
 
 }
 
+.footer_button{
+  margin:5px;
+}
+
 #row1{
   height: 55px;
   padding: 20px;
@@ -44,25 +48,28 @@
 
 #row2{
   height: 350px;
-  background-color:red;
+  background-color:white;
 }
 
 #row3{
   height: 75px;
+  justify-content: flex-end;
+  align-items: center;
+
 }
 
 #cardAdvanceButton{
   width:75px;
   justify-content: center;
   align-items: center;
-  background-color:green;
+  background-color: lightgrey;
 }
 
 #cardRetreatButton{
   width:75px;
   justify-content: center;
   align-items: center;
-  background-color:green;
+  background-color:lightgrey;
 }
 
 #card_body{
